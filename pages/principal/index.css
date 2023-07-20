@@ -11,6 +11,10 @@ html,body {
     padding: 0;
 }
 
+body {
+    background: #201b2c;
+}
+
 nav {
 	min-width: 1000px;
 	font-size: 90%;
@@ -55,8 +59,10 @@ header {
 }
 
 button {
-    background-color: rgb(97, 7, 124);
-    color: white;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
     width: 100px;
     height: 35px;
 }
@@ -65,7 +71,7 @@ button {
     display: flex;
     position: relative;
     height: 245px;
-    background-color: rgb(103, 21, 128);
+    background-color: #2f2841;
 }
 
 .text-promo {
